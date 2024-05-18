@@ -138,19 +138,19 @@
       display: none !important;
     }
 
-    .drop-position-inside {
-      .gantt-table-column {
-        height: 100%;
-        border-top: 2px dashed variables.$gantt-primary-color !important;
-        border-bottom: 2px dashed variables.$gantt-primary-color !important;
-        &:first-child {
-          border-left: 2px dashed variables.$gantt-primary-color !important;
-        }
-        &:last-child {
-          border-right: 2px dashed variables.$gantt-primary-color !important;
-        }
-      }
-    }
+    // .drop-position-inside {
+    //   .gantt-table-column {
+    //     height: 100%;
+    //     border-top: 2px dashed variables.$gantt-primary-color !important;
+    //     border-bottom: 2px dashed variables.$gantt-primary-color !important;
+    //     &:first-child {
+    //       border-left: 2px dashed variables.$gantt-primary-color !important;
+    //     }
+    //     &:last-child {
+    //       border-right: 2px dashed variables.$gantt-primary-color !important;
+    //     }
+    //   }
+    // }
 
     .drop-position-before {
       background: variables.$gantt-table-items-drop-background-color !important;
